@@ -22,8 +22,8 @@ enum STEPS {
 
 const SearchModal = () => {
   const router = useRouter();
-  const searchModal = useSearchModal();
   const params = useSearchParams();
+  const searchModal = useSearchModal();
 
   const [step, setStep] = useState(STEPS.LOCATION);
   const [guestCount, setGuestCount] = useState(1);
